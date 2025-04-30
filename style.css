@@ -1,0 +1,48 @@
+/* reset??? */
+
+body {
+  line-height: 1.6;
+}
+
+header {
+  
+  /* alinhamento */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  
+  /* cores */
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  
+  /* retira bolinha da lista*/
+  list-style: none;
+  
+  display: flex;
+  
+  /* espaço entre itens*/
+  gap: 32px;
+}
+
+/* cor mouse no link */
+nav a:hover {
+  color: purple;
+}
+
+.character-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  padding: 48px 32px;
+}
+
+
+.character-card{
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
