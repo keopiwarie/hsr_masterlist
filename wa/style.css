@@ -1,0 +1,116 @@
+/* Reset e fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Estilo geral do corpo da página */
+body {
+  background-color: #0a0a0f; /* Fundo escuro */
+  color: #fff; /* Texto claro */
+  line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+/* Cabeçalho: logo + navegação */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #1a1a2e; /* Azul escuro */
+}
+
+/* Título principal (logo) */
+header h1 {
+  font-size: 1.8rem;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff; /* Brilha ao passar o mouse */
+}
+
+/* Seção do banner com imagem de fundo */
+.banner {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('https://example.com/banner.jpg'); /* Substitua por uma imagem real */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Título do banner */
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Grade de personagens responsiva */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #111;
+}
+
+/* Estilo de cada cartão de personagem */
+.character-card {
+  background-color: #1f1f2f;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efeito ao passar o mouse no cartão */
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Imagem do personagem */
+.character-card img {
+  width: 100%;
+  display: block;
+}
+
+/* Informações dentro do cartão */
+.card-info {
+  padding: 1rem;
+}
+
+.card-info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #b0aaff; /* Roxo claro */
+}
+
+.card-info p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Rodapé da página */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: #1a1a2e;
+  font-size: 0.9rem;
+}
