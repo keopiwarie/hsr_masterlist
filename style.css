@@ -33,25 +33,26 @@ nav a:hover {
   color: purple;
 }
 
-.text{
+.text {
   text-align: center;
 }
 
-.character-grid{
+.character-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 15px;
   padding: 30px 70px;
 }
 
-.character-info{
-  padding: 16px;
+.character-info {
   line-height: 3px;
+  text-align: center;
 }
 
-.character-card{
-  background-color: gainsboro;
+.character-card {
   border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 footer {
