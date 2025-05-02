@@ -1,40 +1,33 @@
-/* reset??? */
-
 body {
-  line-height: 1;
+  margin: 0;
 }
 
-header {
-  
-  /* alinhamento */
+.navbar {
+  background-color: #111;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 24px 32px;
-  
-  /* cores */
-  background-color: black;
-  color: white;
+  padding: 10px 20px;
 }
 
-nav ul {
-  
-  /* retira bolinha da lista*/
-  list-style: none;
-  
-  display: flex;
-  
-  /* espaço entre itens*/
-  gap: 32px;
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
-/* cor mouse no link */
-nav a:hover {
-  color: purple;
+.navbar a:hover {
+  color: red;
+}
+
+.logo {
+  height: 40px;
+  margin-right: auto;
 }
 
 .text {
   text-align: center;
+  padding: 150px 10px;
 }
 
 .character-grid {
